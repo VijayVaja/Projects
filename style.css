@@ -48,16 +48,18 @@ video {
 }
 
 #nav{
-    position: relative;
+    position: absolute;
     top: -150px;
     width: 100%;
     margin: auto;
     padding: 15px;
     display: flex;
     background-color: white;
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
+    box-shadow: 0px 0px 21px 0px gray;
 
 }
+
 #logo{
     margin: auto 40px auto 100px;
     color: rgb(255, 193, 7);
@@ -68,25 +70,55 @@ video {
 #button_list{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #buttons{
     width: 700px;
     margin: 0px 50px;
-    /* box-sizing: border-box; */
 }
+
 #button_list li{
     margin: 5px;
     padding: 10px;
 }
+
 #button_list li a{
     color: grey;
     text-decoration: none;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
+
 #button_list li a:hover{
     cursor: pointer;
     color: black;
 }
+
+
+/* our studio section  */
+
+/* our studio section => row 1  */
+#ourStudio{
+    padding-top: 100px;
+}
+
+#row-1{
+    width: 85%;
+    margin: auto;
+
+}
+#row-1 h1{
+    margin: 10px;
+}
+#para{
+    display: flex;
+    justify-content: space-between;
+}
+#para-1, #para-2{
+    width: 50%;
+    margin: 10px;
+    
+}
+
+/* our studio section => row 2 */
+
